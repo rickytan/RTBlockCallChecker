@@ -25,6 +25,5 @@ called.
   s.requires_arc     = true
   s.source_files = 'RTBlockCallChecker/Classes/**/*'
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'Foundation'
 end

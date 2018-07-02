@@ -39,11 +39,11 @@
 #endif
 
 
-#if RTBLOCKCHECKER_ENABLED
-
 @interface RTBlockCallChecker <BlockType> : NSObject
 + (BlockType)buildBlock:(BlockType)completeBlock message:(NSString *)format, ...;
 @end
+
+#if RTBLOCKCHECKER_ENABLED
 
 #define RT_CHECK_BLOCK_CALLED(block)    [RTBlockCallChecker<__typeof(block)> buildBlock:(block) message:@"Block passed at %s:%d must be called!", __FUNCTION__, __LINE__, block]
 
