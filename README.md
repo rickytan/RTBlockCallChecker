@@ -39,7 +39,7 @@ void (^someBlockMustBeCalled)() = ^{
 - (void)passBlockToAMethod:(void(^)(void))block {
     // 1. call the block immediatedlly
     block();        // ok
-    // 2. call the block width delay
+    // 2. call the block with delay
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         block();    // ok
     });
