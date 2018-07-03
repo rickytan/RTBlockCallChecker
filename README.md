@@ -36,8 +36,9 @@ void (^someBlockMustBeCalled)() = ^{
 };
 // change
 [self passBlockToAMethod:someBlockMustBeCalled];
-// to, simple!
+// to
 [self passBlockToAMethod:RT_CHECK_BLOCK_CALLED(someBlockMustBeCalled)];
+// simple!
 
 - (void)passBlockToAMethod:(void(^)(void))block {
     // 1. call the block immediatedlly
