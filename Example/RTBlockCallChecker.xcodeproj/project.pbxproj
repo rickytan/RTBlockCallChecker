@@ -246,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "ricky.tan.xin@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 36X754M3QH;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -466,6 +469,7 @@
 			baseConfigurationReference = 12AF988DD9FB4C6264B4A14D /* Pods-RTBlockCallChecker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36X754M3QH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTBlockCallChecker/RTBlockCallChecker-Prefix.pch";
 				INFOPLIST_FILE = "RTBlockCallChecker/RTBlockCallChecker-Info.plist";
@@ -481,6 +485,7 @@
 			baseConfigurationReference = B294F283FB132A1D18AE6E7B /* Pods-RTBlockCallChecker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 36X754M3QH;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RTBlockCallChecker/RTBlockCallChecker-Prefix.pch";
 				INFOPLIST_FILE = "RTBlockCallChecker/RTBlockCallChecker-Info.plist";

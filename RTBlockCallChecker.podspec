@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RTBlockCallChecker'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A helper utility to check if a block has been called'
   s.description      = <<-DESC
 This project provide a tricky way to check if a block passed to a method has been

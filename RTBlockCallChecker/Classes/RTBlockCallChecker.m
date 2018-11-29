@@ -158,7 +158,11 @@ static Class __RTBlockClass = nil;
     block->flags = BLOCK_HAS_COPY_DISPOSE | BLOCK_NEEDS_FREE | (retainCount << 1);
     block->reserved = 0;
     if (((__bridge RTBlock *)completeBlock)->flags & BLOCK_HAS_STRET) {
+#if __arm64
+        block->invoke = (IMP)_objc_msgForward;
+#else
         block->invoke = (IMP)_objc_msgForward_stret;
+#endif
     }
     else {
         block->invoke = (IMP)_objc_msgForward;

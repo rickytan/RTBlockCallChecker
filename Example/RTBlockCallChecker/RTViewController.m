@@ -48,7 +48,7 @@ struct my_struct {
 
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         int a[7] = {100, 101, 102, 103};
-        return ;
+//        return ;
         struct my_struct s = completionBlock(@"abc", (struct my_struct){
             .ch = 'w',
             .name = @"Ricky",
