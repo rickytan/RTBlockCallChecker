@@ -18,7 +18,7 @@ in **WebKit**, we have a navigation delegate method:
 What if for some reason the developer forget to call `decisionHandler`? This is not allowed.
 In fact, if you do forget to call it, **WebKit** will raise a exception for you. How did **WebKit** 
 do that? well, it implements a [CompletionHandlerCallChecker](https://opensource.apple.com/source/WebKit2/WebKit2-7602.1.50.0.10/Shared/Cocoa/CompletionHandlerCallChecker.mm.auto.html) in **CPP**, and 
-use the template magic. But this project provides a tricky way in **Objective-C**. for more 
+use the lamda expresion. But this project provides a tricky way in **Objective-C**. for more 
 information, please read the source code, quite simple.
 
 ## Usage
@@ -34,18 +34,22 @@ pod 'RTBlockCallChecker'
 void (^someBlockMustBeCalled)() = ^{
    ...
 };
+// change
+[self passBlockToAMethod:someBlockMustBeCalled];
+// to
 [self passBlockToAMethod:RT_CHECK_BLOCK_CALLED(someBlockMustBeCalled)];
+// simple!
 
 - (void)passBlockToAMethod:(void(^)(void))block {
     // 1. call the block immediatedlly
     block();        // ok
-    // 2. call the block width delay
+    // 2. call the block with delay
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         block();    // ok
     });
     // 3. pass the block to another instance, and it will call the block in the future
     someObj.completion = block; // ok
-    // 4. forget to call the block, raise a exception!
+    // 4. forget to call the block, raise an exception!
 }
 ```
 
