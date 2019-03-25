@@ -1,5 +1,5 @@
 PODS:
-  - RTBlockCallChecker (0.1.0)
+  - RTBlockCallChecker (0.1.1)
 
 DEPENDENCIES:
   - RTBlockCallChecker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RTBlockCallChecker: 1273237dd21677ce97ab631fa0f5ad83bcbc33b2
+  RTBlockCallChecker: 10a8942cf36891c35b4d989d2fa7d02661b69814
 
 PODFILE CHECKSUM: f61deac7e17e643bf0a984059d47f7797d5f78c3
 

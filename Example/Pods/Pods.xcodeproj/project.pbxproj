@@ -7,78 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		336C0837770AC016F2395A14C00220C5 /* RTBlockCallChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 17AE489D9D874934C49C26393C972712 /* RTBlockCallChecker.m */; };
-		5AA85CEE109E582390B643F2B5F8650F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		9303B5DBF2BE713D1C5CB56DFBBE24D3 /* RTBlockCallChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9B520A5F233B560E834424FFAEF102 /* RTBlockCallChecker-dummy.m */; };
-		BBEC95DC103A3AB785D7BC627A8D6C57 /* Pods-RTBlockCallChecker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A10E1B8CB0DB81B6172977D85289F9A5 /* Pods-RTBlockCallChecker_Example-dummy.m */; };
-		F04814108824002022D59451275F57FE /* Pods-RTBlockCallChecker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D16D7790A7DDA79C1192B5ABB0CB3E6 /* Pods-RTBlockCallChecker_Tests-dummy.m */; };
-		F9734639EC2C9B0680670A76EFAAA666 /* RTBlockCallChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8925853CC987B11B67AEDCD675DA17 /* RTBlockCallChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D5ECA043086C98265F78A3F3DDBDF6B /* RTBlockCallChecker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2E9B6509D02008DE9EAD59B449B502 /* RTBlockCallChecker-dummy.m */; };
+		2343EC28B9E8D8BDCE7A18CA174D64CF /* Pods-RTBlockCallChecker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5472312163AD0747DE9CEACFC856C9AD /* Pods-RTBlockCallChecker_Example-dummy.m */; };
+		3270ABC96600F8871E887131FD339327 /* Pods-RTBlockCallChecker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9339587D343FCBB6825F7A48400B39D4 /* Pods-RTBlockCallChecker_Tests-dummy.m */; };
+		66A2D72EA11CBE42C624B160B3CB4E35 /* RTBlockCallChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F35E40BFE22B344F75D2F612B5EC15 /* RTBlockCallChecker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94CD99EF79DDF3365D264820E9E4D7D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E916A4B1BA4B505466FE350F62932498 /* RTBlockCallChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C3B5CAA504FC5B53E4270B20E66F34 /* RTBlockCallChecker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		55A70D320BB78C47835F7BA4ECB510DB /* PBXContainerItemProxy */ = {
+		6C34DD34458A3D820F37EF31BB7B422B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9F350C91F2C989D300C0B2DBDC6E6D0D;
-			remoteInfo = "Pods-RTBlockCallChecker_Example";
-		};
-		C6C35A01F383917F8F5007CBF9E94268 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E37D84B5CC2F756B495101850845872F;
+			remoteGlobalIDString = 5C1F6A6874A385B67DC312F0A5D73522;
 			remoteInfo = RTBlockCallChecker;
+		};
+		BEEA7575E77F5B8C318A65A6C46ECC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 623996E5D201A1153344E5A95AD912F8;
+			remoteInfo = "Pods-RTBlockCallChecker_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06C7E54D22ED545015D2C566C920858F /* Pods-RTBlockCallChecker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		06F578CE18D7ECC0591B7F3F3F4DE996 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0AFA66E3D50FB52490884E2F20467D9B /* libPods-RTBlockCallChecker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RTBlockCallChecker_Example.a"; path = "libPods-RTBlockCallChecker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1727FEF328210F64B4E435ADB425099C /* Pods-RTBlockCallChecker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Example-resources.sh"; sourceTree = "<group>"; };
-		17AE489D9D874934C49C26393C972712 /* RTBlockCallChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTBlockCallChecker.m; path = RTBlockCallChecker/Classes/RTBlockCallChecker.m; sourceTree = "<group>"; };
-		17B388CF8180579B33EABA39760BCF2E /* Pods-RTBlockCallChecker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Tests-resources.sh"; sourceTree = "<group>"; };
-		1D16D7790A7DDA79C1192B5ABB0CB3E6 /* Pods-RTBlockCallChecker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTBlockCallChecker_Tests-dummy.m"; sourceTree = "<group>"; };
-		34DEED53C06F48377E8B7D01435F4520 /* libPods-RTBlockCallChecker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-RTBlockCallChecker_Tests.a"; path = "libPods-RTBlockCallChecker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8925853CC987B11B67AEDCD675DA17 /* RTBlockCallChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTBlockCallChecker.h; path = RTBlockCallChecker/Classes/RTBlockCallChecker.h; sourceTree = "<group>"; };
-		3E596C5F94BF4DB43C09BBAC8C0D80C9 /* Pods-RTBlockCallChecker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4B92B056444EFC490D2A7A2073524F61 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C15E9BEE7CCF1BD923DE2B7B8BD8B11 /* Pods-RTBlockCallChecker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTBlockCallChecker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		69800854AF7BCD4059059A16C95B1988 /* RTBlockCallChecker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTBlockCallChecker-prefix.pch"; sourceTree = "<group>"; };
-		6E37F633D36EC284E841E377CDC3FA91 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E7987F7B4DB15A055E9CBAF802714B1 /* Pods-RTBlockCallChecker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTBlockCallChecker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C297CAB192A5CF9AF2CFC221A577814 /* RTBlockCallChecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTBlockCallChecker.xcconfig; sourceTree = "<group>"; };
-		866E06D0897BB322B1A5A59F60B23C9B /* RTBlockCallChecker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RTBlockCallChecker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A10E1B8CB0DB81B6172977D85289F9A5 /* Pods-RTBlockCallChecker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTBlockCallChecker_Example-dummy.m"; sourceTree = "<group>"; };
-		A7A319C95484C377EAE5683AB4E0E4FC /* libRTBlockCallChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRTBlockCallChecker.a; path = libRTBlockCallChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA9B520A5F233B560E834424FFAEF102 /* RTBlockCallChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTBlockCallChecker-dummy.m"; sourceTree = "<group>"; };
-		AB8E4C52E56083D5A7592DFBACAD05BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		C0ED7E62CE5DD536AEAA9FF4E352E29D /* Pods-RTBlockCallChecker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTBlockCallChecker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C97E526BBCAC01155F2B0AF08638338F /* Pods-RTBlockCallChecker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DA155CDC3216C92B9B9E62020711F525 /* Pods-RTBlockCallChecker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E728E8A187726DE615D51EDDA6A88958 /* Pods-RTBlockCallChecker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTBlockCallChecker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AEE2583654606ADFE5DB4A1ED77C210 /* libRTBlockCallChecker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRTBlockCallChecker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		23EE4FDEE7EF5C6783B62710EDA101C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28F653B821981B3C7435F140B4928C61 /* Pods-RTBlockCallChecker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2CB80CA424F975B7065AD4F3FE2AB0C8 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F2E9B6509D02008DE9EAD59B449B502 /* RTBlockCallChecker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTBlockCallChecker-dummy.m"; sourceTree = "<group>"; };
+		40F35E40BFE22B344F75D2F612B5EC15 /* RTBlockCallChecker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RTBlockCallChecker.h; path = RTBlockCallChecker/Classes/RTBlockCallChecker.h; sourceTree = "<group>"; };
+		4F6A0E0CE4F3B4C476639BB16EEC0F9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5472312163AD0747DE9CEACFC856C9AD /* Pods-RTBlockCallChecker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTBlockCallChecker_Example-dummy.m"; sourceTree = "<group>"; };
+		563DB80EE6AA8B1D04ADAFAB44611003 /* libPods-RTBlockCallChecker_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBlockCallChecker_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F47133E5608F20BCF8E2257DB5ED77 /* Pods-RTBlockCallChecker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6AD99F37856B6F3EED79C3874747011B /* Pods-RTBlockCallChecker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		743DE9B6100055E5FE88FC6FFC870DC4 /* Pods-RTBlockCallChecker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Tests-resources.sh"; sourceTree = "<group>"; };
+		80FCAE8B25B1D2ED9E389F35B2FE7A1B /* RTBlockCallChecker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTBlockCallChecker.xcconfig; sourceTree = "<group>"; };
+		83B3CA71E7C4F6BA2260CD67BFF34CE6 /* Pods-RTBlockCallChecker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTBlockCallChecker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83CFD4B913DD461C554A072BA4013425 /* RTBlockCallChecker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RTBlockCallChecker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86FC42BF2B44213B638126DD3EBE60F8 /* Pods-RTBlockCallChecker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTBlockCallChecker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9339587D343FCBB6825F7A48400B39D4 /* Pods-RTBlockCallChecker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTBlockCallChecker_Tests-dummy.m"; sourceTree = "<group>"; };
+		9E143B93FEA06AF469440E943C59F940 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E392D1F6229B4EC8FF04F7A6C017DD7 /* Pods-RTBlockCallChecker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTBlockCallChecker_Example-resources.sh"; sourceTree = "<group>"; };
+		A826A6728DFA2442762D698C96A88C6F /* Pods-RTBlockCallChecker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTBlockCallChecker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B35378741D424AB91EF8C025150D3066 /* Pods-RTBlockCallChecker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTBlockCallChecker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B4C3B5CAA504FC5B53E4270B20E66F34 /* RTBlockCallChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RTBlockCallChecker.m; path = RTBlockCallChecker/Classes/RTBlockCallChecker.m; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E1205B03F4A3C130A89375278B17BD2E /* RTBlockCallChecker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTBlockCallChecker-prefix.pch"; sourceTree = "<group>"; };
+		F568177569404DB12FA105BE678389E0 /* Pods-RTBlockCallChecker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTBlockCallChecker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC10D15207194BCD8CA9789B9C07FE8E /* libPods-RTBlockCallChecker_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RTBlockCallChecker_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8EE8EF6CEC8A3F987BD7B65385FAE86D /* Frameworks */ = {
+		1D6060A976BAA3625E3306A715685F51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9122266919D4129CC02CE57EC545D598 /* Frameworks */ = {
+		AED38F57987A92181B5619247CFB7719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AA85CEE109E582390B643F2B5F8650F /* Foundation.framework in Frameworks */,
+				94CD99EF79DDF3365D264820E9E4D7D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABC61F468EC7EDE80B4FC7606A5FD03D /* Frameworks */ = {
+		BF3470BBE1369D7BF51DC90B19F3EE34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,178 +88,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0416C49F4ED397979B31C5FAD53254B5 /* Targets Support Files */ = {
+		1B1F008A11CBE93BE8A29E2B0D08E794 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FD1C016C892E31A5BFA6D44C7D2ECB0 /* Pods-RTBlockCallChecker_Example */,
-				EB6823A90EE5E3552A2883CD990C7875 /* Pods-RTBlockCallChecker_Tests */,
+				FC10D15207194BCD8CA9789B9C07FE8E /* libPods-RTBlockCallChecker_Example.a */,
+				563DB80EE6AA8B1D04ADAFAB44611003 /* libPods-RTBlockCallChecker_Tests.a */,
+				1AEE2583654606ADFE5DB4A1ED77C210 /* libRTBlockCallChecker.a */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		0FD1C016C892E31A5BFA6D44C7D2ECB0 /* Pods-RTBlockCallChecker_Example */ = {
+		1E5BB44C3783C2AABB655C098AE07393 /* Pods-RTBlockCallChecker_Example */ = {
 			isa = PBXGroup;
 			children = (
-				C0ED7E62CE5DD536AEAA9FF4E352E29D /* Pods-RTBlockCallChecker_Example-acknowledgements.markdown */,
-				6E7987F7B4DB15A055E9CBAF802714B1 /* Pods-RTBlockCallChecker_Example-acknowledgements.plist */,
-				A10E1B8CB0DB81B6172977D85289F9A5 /* Pods-RTBlockCallChecker_Example-dummy.m */,
-				06C7E54D22ED545015D2C566C920858F /* Pods-RTBlockCallChecker_Example-frameworks.sh */,
-				1727FEF328210F64B4E435ADB425099C /* Pods-RTBlockCallChecker_Example-resources.sh */,
-				DA155CDC3216C92B9B9E62020711F525 /* Pods-RTBlockCallChecker_Example.debug.xcconfig */,
-				C97E526BBCAC01155F2B0AF08638338F /* Pods-RTBlockCallChecker_Example.release.xcconfig */,
+				86FC42BF2B44213B638126DD3EBE60F8 /* Pods-RTBlockCallChecker_Example-acknowledgements.markdown */,
+				F568177569404DB12FA105BE678389E0 /* Pods-RTBlockCallChecker_Example-acknowledgements.plist */,
+				5472312163AD0747DE9CEACFC856C9AD /* Pods-RTBlockCallChecker_Example-dummy.m */,
+				6AD99F37856B6F3EED79C3874747011B /* Pods-RTBlockCallChecker_Example-frameworks.sh */,
+				9E392D1F6229B4EC8FF04F7A6C017DD7 /* Pods-RTBlockCallChecker_Example-resources.sh */,
+				A826A6728DFA2442762D698C96A88C6F /* Pods-RTBlockCallChecker_Example.debug.xcconfig */,
+				62F47133E5608F20BCF8E2257DB5ED77 /* Pods-RTBlockCallChecker_Example.release.xcconfig */,
 			);
 			name = "Pods-RTBlockCallChecker_Example";
 			path = "Target Support Files/Pods-RTBlockCallChecker_Example";
 			sourceTree = "<group>";
 		};
-		2C4D4BCE3D3C69CE4D2DAE10A93BBF70 /* Development Pods */ = {
+		234BC4422E38DC33FAE874FE00D1F303 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E408510BF2CFCCAC9DBDBE4CA1043A0B /* RTBlockCallChecker */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4F92BD6ACE49AD98B638AF26547E2F3C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AB8E4C52E56083D5A7592DFBACAD05BD /* LICENSE */,
-				06F578CE18D7ECC0591B7F3F3F4DE996 /* README.md */,
-				866E06D0897BB322B1A5A59F60B23C9B /* RTBlockCallChecker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2C4D4BCE3D3C69CE4D2DAE10A93BBF70 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D6E2E898B3F5E305C61FE52E6A9B7BAD /* Products */,
-				0416C49F4ED397979B31C5FAD53254B5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		811515BD0466836F9CB4E077380CF2FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7C297CAB192A5CF9AF2CFC221A577814 /* RTBlockCallChecker.xcconfig */,
-				AA9B520A5F233B560E834424FFAEF102 /* RTBlockCallChecker-dummy.m */,
-				69800854AF7BCD4059059A16C95B1988 /* RTBlockCallChecker-prefix.pch */,
+				80FCAE8B25B1D2ED9E389F35B2FE7A1B /* RTBlockCallChecker.xcconfig */,
+				2F2E9B6509D02008DE9EAD59B449B502 /* RTBlockCallChecker-dummy.m */,
+				E1205B03F4A3C130A89375278B17BD2E /* RTBlockCallChecker-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RTBlockCallChecker";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		51FC66DA74028B886D4BD5C74BD4C7FC /* Pods-RTBlockCallChecker_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D6E2E898B3F5E305C61FE52E6A9B7BAD /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0AFA66E3D50FB52490884E2F20467D9B /* libPods-RTBlockCallChecker_Example.a */,
-				34DEED53C06F48377E8B7D01435F4520 /* libPods-RTBlockCallChecker_Tests.a */,
-				A7A319C95484C377EAE5683AB4E0E4FC /* libRTBlockCallChecker.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E408510BF2CFCCAC9DBDBE4CA1043A0B /* RTBlockCallChecker */ = {
-			isa = PBXGroup;
-			children = (
-				3A8925853CC987B11B67AEDCD675DA17 /* RTBlockCallChecker.h */,
-				17AE489D9D874934C49C26393C972712 /* RTBlockCallChecker.m */,
-				4F92BD6ACE49AD98B638AF26547E2F3C /* Pod */,
-				811515BD0466836F9CB4E077380CF2FA /* Support Files */,
-			);
-			name = RTBlockCallChecker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		EB6823A90EE5E3552A2883CD990C7875 /* Pods-RTBlockCallChecker_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5C15E9BEE7CCF1BD923DE2B7B8BD8B11 /* Pods-RTBlockCallChecker_Tests-acknowledgements.markdown */,
-				E728E8A187726DE615D51EDDA6A88958 /* Pods-RTBlockCallChecker_Tests-acknowledgements.plist */,
-				1D16D7790A7DDA79C1192B5ABB0CB3E6 /* Pods-RTBlockCallChecker_Tests-dummy.m */,
-				3E596C5F94BF4DB43C09BBAC8C0D80C9 /* Pods-RTBlockCallChecker_Tests-frameworks.sh */,
-				17B388CF8180579B33EABA39760BCF2E /* Pods-RTBlockCallChecker_Tests-resources.sh */,
-				4B92B056444EFC490D2A7A2073524F61 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */,
-				6E37F633D36EC284E841E377CDC3FA91 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */,
+				B35378741D424AB91EF8C025150D3066 /* Pods-RTBlockCallChecker_Tests-acknowledgements.markdown */,
+				83B3CA71E7C4F6BA2260CD67BFF34CE6 /* Pods-RTBlockCallChecker_Tests-acknowledgements.plist */,
+				9339587D343FCBB6825F7A48400B39D4 /* Pods-RTBlockCallChecker_Tests-dummy.m */,
+				28F653B821981B3C7435F140B4928C61 /* Pods-RTBlockCallChecker_Tests-frameworks.sh */,
+				743DE9B6100055E5FE88FC6FFC870DC4 /* Pods-RTBlockCallChecker_Tests-resources.sh */,
+				9E143B93FEA06AF469440E943C59F940 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */,
+				2CB80CA424F975B7065AD4F3FE2AB0C8 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */,
 			);
 			name = "Pods-RTBlockCallChecker_Tests";
 			path = "Target Support Files/Pods-RTBlockCallChecker_Tests";
 			sourceTree = "<group>";
 		};
+		605E33B9F940558DE322FF62B02A7434 /* RTBlockCallChecker */ = {
+			isa = PBXGroup;
+			children = (
+				40F35E40BFE22B344F75D2F612B5EC15 /* RTBlockCallChecker.h */,
+				B4C3B5CAA504FC5B53E4270B20E66F34 /* RTBlockCallChecker.m */,
+				89EA1BCD86AEB4EBCD799440CD244522 /* Pod */,
+				234BC4422E38DC33FAE874FE00D1F303 /* Support Files */,
+			);
+			name = RTBlockCallChecker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		89EA1BCD86AEB4EBCD799440CD244522 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23EE4FDEE7EF5C6783B62710EDA101C6 /* LICENSE */,
+				4F6A0E0CE4F3B4C476639BB16EEC0F9B /* README.md */,
+				83CFD4B913DD461C554A072BA4013425 /* RTBlockCallChecker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8DAF7DB6602048B09C27BA9559377009 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5BB44C3783C2AABB655C098AE07393 /* Pods-RTBlockCallChecker_Example */,
+				51FC66DA74028B886D4BD5C74BD4C7FC /* Pods-RTBlockCallChecker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				ED9045FAF1F28629A87F642D9C4F3C2D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1B1F008A11CBE93BE8A29E2B0D08E794 /* Products */,
+				8DAF7DB6602048B09C27BA9559377009 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED9045FAF1F28629A87F642D9C4F3C2D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				605E33B9F940558DE322FF62B02A7434 /* RTBlockCallChecker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B3C29A93CD0C8653796FC4C1AB9F6403 /* Headers */ = {
+		5FD7B8F358210B355725B5DBAF6D9065 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9734639EC2C9B0680670A76EFAAA666 /* RTBlockCallChecker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880FBE55EC37D80052418FFA3E85A01E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A2D72EA11CBE42C624B160B3CB4E35 /* RTBlockCallChecker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2DE150D4D113A9D4414CEA9CB4F338 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		656078609DDEB9E18B3B68DA3F970D3D /* Pods-RTBlockCallChecker_Tests */ = {
+		5C1F6A6874A385B67DC312F0A5D73522 /* RTBlockCallChecker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B82C43B99AEEFF80CF7A1EE686730979 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Tests" */;
+			buildConfigurationList = B884C656D66FB74F8DE98A0AEDF53624 /* Build configuration list for PBXNativeTarget "RTBlockCallChecker" */;
 			buildPhases = (
-				45C8E14BCBB6E2C978D346F29516935C /* Sources */,
-				8EE8EF6CEC8A3F987BD7B65385FAE86D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41B74BBE293B8625DEE761C8E6B7F661 /* PBXTargetDependency */,
-			);
-			name = "Pods-RTBlockCallChecker_Tests";
-			productName = "Pods-RTBlockCallChecker_Tests";
-			productReference = 34DEED53C06F48377E8B7D01435F4520 /* libPods-RTBlockCallChecker_Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		9F350C91F2C989D300C0B2DBDC6E6D0D /* Pods-RTBlockCallChecker_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3A256EA13046B7F051CBC7646D52EFE8 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Example" */;
-			buildPhases = (
-				74D8D5B24064856AD57DE9F856253D49 /* Sources */,
-				ABC61F468EC7EDE80B4FC7606A5FD03D /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				968626A874813CB5517D52470725C77F /* PBXTargetDependency */,
-			);
-			name = "Pods-RTBlockCallChecker_Example";
-			productName = "Pods-RTBlockCallChecker_Example";
-			productReference = 0AFA66E3D50FB52490884E2F20467D9B /* libPods-RTBlockCallChecker_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E37D84B5CC2F756B495101850845872F /* RTBlockCallChecker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 768487C186E4A8CF37FD79E6B80ACB51 /* Build configuration list for PBXNativeTarget "RTBlockCallChecker" */;
-			buildPhases = (
-				D6BE3D128D7DAD5E96AF8D59AEFD6D27 /* Sources */,
-				9122266919D4129CC02CE57EC545D598 /* Frameworks */,
-				B3C29A93CD0C8653796FC4C1AB9F6403 /* Headers */,
+				880FBE55EC37D80052418FFA3E85A01E /* Headers */,
+				35896A901A9356C1B1E1B86D4E33EC27 /* Sources */,
+				AED38F57987A92181B5619247CFB7719 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,84 +247,120 @@
 			);
 			name = RTBlockCallChecker;
 			productName = RTBlockCallChecker;
-			productReference = A7A319C95484C377EAE5683AB4E0E4FC /* libRTBlockCallChecker.a */;
+			productReference = 1AEE2583654606ADFE5DB4A1ED77C210 /* libRTBlockCallChecker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		623996E5D201A1153344E5A95AD912F8 /* Pods-RTBlockCallChecker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D813DB191D9A9892D0A6358C214BE2 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Example" */;
+			buildPhases = (
+				CD2DE150D4D113A9D4414CEA9CB4F338 /* Headers */,
+				2BF389140B97A1F3741F6245B39A7F53 /* Sources */,
+				BF3470BBE1369D7BF51DC90B19F3EE34 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D024FF9BEEAE6BB27AAB1737951845BC /* PBXTargetDependency */,
+			);
+			name = "Pods-RTBlockCallChecker_Example";
+			productName = "Pods-RTBlockCallChecker_Example";
+			productReference = FC10D15207194BCD8CA9789B9C07FE8E /* libPods-RTBlockCallChecker_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AC0844889E2F144961C89A6EE3BC7D18 /* Pods-RTBlockCallChecker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC9656BD1EF19A045077A96732F213DC /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Tests" */;
+			buildPhases = (
+				5FD7B8F358210B355725B5DBAF6D9065 /* Headers */,
+				F433227577BDE6488FEC3616C1F2D3DA /* Sources */,
+				1D6060A976BAA3625E3306A715685F51 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7A14982FF181BDD124023E2E39EDF51 /* PBXTargetDependency */,
+			);
+			name = "Pods-RTBlockCallChecker_Tests";
+			productName = "Pods-RTBlockCallChecker_Tests";
+			productReference = 563DB80EE6AA8B1D04ADAFAB44611003 /* libPods-RTBlockCallChecker_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D6E2E898B3F5E305C61FE52E6A9B7BAD /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1B1F008A11CBE93BE8A29E2B0D08E794 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F350C91F2C989D300C0B2DBDC6E6D0D /* Pods-RTBlockCallChecker_Example */,
-				656078609DDEB9E18B3B68DA3F970D3D /* Pods-RTBlockCallChecker_Tests */,
-				E37D84B5CC2F756B495101850845872F /* RTBlockCallChecker */,
+				623996E5D201A1153344E5A95AD912F8 /* Pods-RTBlockCallChecker_Example */,
+				AC0844889E2F144961C89A6EE3BC7D18 /* Pods-RTBlockCallChecker_Tests */,
+				5C1F6A6874A385B67DC312F0A5D73522 /* RTBlockCallChecker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		45C8E14BCBB6E2C978D346F29516935C /* Sources */ = {
+		2BF389140B97A1F3741F6245B39A7F53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F04814108824002022D59451275F57FE /* Pods-RTBlockCallChecker_Tests-dummy.m in Sources */,
+				2343EC28B9E8D8BDCE7A18CA174D64CF /* Pods-RTBlockCallChecker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74D8D5B24064856AD57DE9F856253D49 /* Sources */ = {
+		35896A901A9356C1B1E1B86D4E33EC27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBEC95DC103A3AB785D7BC627A8D6C57 /* Pods-RTBlockCallChecker_Example-dummy.m in Sources */,
+				0D5ECA043086C98265F78A3F3DDBDF6B /* RTBlockCallChecker-dummy.m in Sources */,
+				E916A4B1BA4B505466FE350F62932498 /* RTBlockCallChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6BE3D128D7DAD5E96AF8D59AEFD6D27 /* Sources */ = {
+		F433227577BDE6488FEC3616C1F2D3DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9303B5DBF2BE713D1C5CB56DFBBE24D3 /* RTBlockCallChecker-dummy.m in Sources */,
-				336C0837770AC016F2395A14C00220C5 /* RTBlockCallChecker.m in Sources */,
+				3270ABC96600F8871E887131FD339327 /* Pods-RTBlockCallChecker_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41B74BBE293B8625DEE761C8E6B7F661 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RTBlockCallChecker_Example";
-			target = 9F350C91F2C989D300C0B2DBDC6E6D0D /* Pods-RTBlockCallChecker_Example */;
-			targetProxy = 55A70D320BB78C47835F7BA4ECB510DB /* PBXContainerItemProxy */;
-		};
-		968626A874813CB5517D52470725C77F /* PBXTargetDependency */ = {
+		D024FF9BEEAE6BB27AAB1737951845BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RTBlockCallChecker;
-			target = E37D84B5CC2F756B495101850845872F /* RTBlockCallChecker */;
-			targetProxy = C6C35A01F383917F8F5007CBF9E94268 /* PBXContainerItemProxy */;
+			target = 5C1F6A6874A385B67DC312F0A5D73522 /* RTBlockCallChecker */;
+			targetProxy = 6C34DD34458A3D820F37EF31BB7B422B /* PBXContainerItemProxy */;
+		};
+		F7A14982FF181BDD124023E2E39EDF51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RTBlockCallChecker_Example";
+			target = 623996E5D201A1153344E5A95AD912F8 /* Pods-RTBlockCallChecker_Example */;
+			targetProxy = BEEA7575E77F5B8C318A65A6C46ECC38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E2286A994BE471EEB0032AA4F80A47B /* Release */ = {
+		0904A4FDB8A97E32FA68B80251560428 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C97E526BBCAC01155F2B0AF08638338F /* Pods-RTBlockCallChecker_Example.release.xcconfig */;
+			baseConfigurationReference = 62F47133E5608F20BCF8E2257DB5ED77 /* Pods-RTBlockCallChecker_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -364,7 +380,157 @@
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		11D69622474D4BD370A1CBB8BDAFAE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E143B93FEA06AF469440E943C59F940 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14226FD47E26C2EB3229D19B2BE03E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A826A6728DFA2442762D698C96A88C6F /* Pods-RTBlockCallChecker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3827729E8EFD475227CE8188BAE63C00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FCAE8B25B1D2ED9E389F35B2FE7A1B /* RTBlockCallChecker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RTBlockCallChecker/RTBlockCallChecker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RTBlockCallChecker;
+				PRODUCT_NAME = RTBlockCallChecker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55FEBB3E732BADEF15840303218AFFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80FCAE8B25B1D2ED9E389F35B2FE7A1B /* RTBlockCallChecker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RTBlockCallChecker/RTBlockCallChecker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RTBlockCallChecker;
+				PRODUCT_NAME = RTBlockCallChecker;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,84 +584,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		697B8508D2AA90F5CE478F5D81EC5124 /* Debug */ = {
+		F2B0CFFC29CA7BD31A0214B30B8838E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA155CDC3216C92B9B9E62020711F525 /* Pods-RTBlockCallChecker_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B78620C8D37796AB03A39509D6E3DC85 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C297CAB192A5CF9AF2CFC221A577814 /* RTBlockCallChecker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RTBlockCallChecker/RTBlockCallChecker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RTBlockCallChecker;
-				PRODUCT_NAME = RTBlockCallChecker;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C40811C47BC489F2AE01ED728AE9FF87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B92B056444EFC490D2A7A2073524F61 /* Pods-RTBlockCallChecker_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C911D36A4ECED0891F4BCF186F4C0680 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E37F633D36EC284E841E377CDC3FA91 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */;
+			baseConfigurationReference = 2CB80CA424F975B7065AD4F3FE2AB0C8 /* Pods-RTBlockCallChecker_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -514,128 +617,47 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		FE8B295AF7D5EE85AF5DF5A74D5AF43F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C297CAB192A5CF9AF2CFC221A577814 /* RTBlockCallChecker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/RTBlockCallChecker/RTBlockCallChecker-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = RTBlockCallChecker;
-				PRODUCT_NAME = RTBlockCallChecker;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				B64E2C722A3EAD054D380F489370F012 /* Debug */,
+				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3A256EA13046B7F051CBC7646D52EFE8 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Example" */ = {
+		83D813DB191D9A9892D0A6358C214BE2 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				697B8508D2AA90F5CE478F5D81EC5124 /* Debug */,
-				1E2286A994BE471EEB0032AA4F80A47B /* Release */,
+				14226FD47E26C2EB3229D19B2BE03E3F /* Debug */,
+				0904A4FDB8A97E32FA68B80251560428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		768487C186E4A8CF37FD79E6B80ACB51 /* Build configuration list for PBXNativeTarget "RTBlockCallChecker" */ = {
+		B884C656D66FB74F8DE98A0AEDF53624 /* Build configuration list for PBXNativeTarget "RTBlockCallChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE8B295AF7D5EE85AF5DF5A74D5AF43F /* Debug */,
-				B78620C8D37796AB03A39509D6E3DC85 /* Release */,
+				55FEBB3E732BADEF15840303218AFFCF /* Debug */,
+				3827729E8EFD475227CE8188BAE63C00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B82C43B99AEEFF80CF7A1EE686730979 /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Tests" */ = {
+		EC9656BD1EF19A045077A96732F213DC /* Build configuration list for PBXNativeTarget "Pods-RTBlockCallChecker_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C40811C47BC489F2AE01ED728AE9FF87 /* Debug */,
-				C911D36A4ECED0891F4BCF186F4C0680 /* Release */,
+				11D69622474D4BD370A1CBB8BDAFAE25 /* Debug */,
+				F2B0CFFC29CA7BD31A0214B30B8838E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

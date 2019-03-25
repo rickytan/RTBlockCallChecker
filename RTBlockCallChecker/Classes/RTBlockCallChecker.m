@@ -98,10 +98,6 @@ static const struct RTBlock_Descriptor RTDescriptor = {
     (void (*)(const void *))rt_blockDispose,
 };
 
-@interface NSInvocation (RTBlockCallChecker)
-- (void)invokeUsingIMP:(IMP)imp;
-@end
-
 @implementation RTBlockCallChecker
 
 static Class __RTBlockClass = nil;
@@ -136,15 +132,11 @@ static Class __RTBlockClass = nil;
     RTBlock *layout = (__bridge RTBlock *)self;
     layout->reserved = 1;
     
-    [anInvocation setTarget:(__bridge id)layout->forwardingBlock];
-    [anInvocation invokeUsingIMP:((RTBlock *)layout->forwardingBlock)->invoke];
+    [anInvocation invokeWithTarget:(__bridge id)layout->forwardingBlock];
 }
 
 + (id)buildBlock:(id)completeBlock message:(NSString *)format, ...
 {
-    if (![NSInvocation instancesRespondToSelector:@selector(invokeUsingIMP:)]) {
-        return completeBlock;
-    }
     va_list args;
     va_start(args, format);
     NSString *message = [[NSString alloc] initWithFormat:format arguments:args];
