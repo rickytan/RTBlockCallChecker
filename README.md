@@ -8,7 +8,7 @@
 ## Introduction
 
 Sometimes, as a third-party library, we must make sure that the completion block we passed 
-to a developer must be called, or it will cause an error and unexpedted states. For example,
+to a developer must be called, or it will cause an error and unexpected states. For example,
 in **WebKit**, we have a navigation delegate method: 
 
 ```objc
@@ -55,7 +55,7 @@ void (^someBlockMustBeCalled)() = ^{
 
 ## Author
 
-rickytan, ricky.tan.xin@gmail.com
+Ricky Tan, ricky.tan.xin@gmail.com
 
 ## License
 
